@@ -51,31 +51,6 @@ pyinstaller --onefile --name "FLYE" main.py
 # результат: dist/FLYE.exe
 ```
 
-## Как выложить на GitHub (рекомендация)
-Лучше не коммитить большие бинарные файлы в основную ветку; используйте GitHub Releases для exe.
-
-Пример команд:
-
-```bash
-# инициализация репозитория (если ещё не создан)
-git init
-git add .
-git commit -m "Initial commit: FLYE"
-# создать репо на GitHub и связать (или используйте GitHub Desktop)
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
-
-Чтобы загрузить exe в релиз:
-- Откройте страницу репозитория на GitHub → Releases → Draft a new release
-- Прикрепите `dist/FLYE.exe` (или переименуйте в `FLYE-v1.0.exe`) и опубликуйте релиз
-
-Или через `gh` CLI:
-
-```bash
-# предварительно установить GitHub CLI и выполнить gh auth login
-gh release create v1.0 dist/FLYE.exe --title "FLYE v1.0" --notes "Windows build"
-```
 
 ## Безопасность и законность
 Используйте инструмент только для законных целей. Соблюдайте местные законы и правила по обработке персональных данных.
@@ -86,4 +61,4 @@ gh release create v1.0 dist/FLYE.exe --title "FLYE v1.0" --notes "Windows build"
 
 ---
 
-Если хотите, могу автоматически создать репозиторий на GitHub и выполнить первый коммит/пуш (нужен доступ/gh cli), или подготовить `dist/FLYE.exe` и прикрепить инструкции по релизу.
+have fun
