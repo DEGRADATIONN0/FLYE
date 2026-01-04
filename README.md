@@ -27,6 +27,8 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 python main.py
 ```
+либо использовать собраный exe файл для windows 
+
 
 ## Запуск в Termux (Android)
 Обычно проще запускать скрипт прямо в Termux:
