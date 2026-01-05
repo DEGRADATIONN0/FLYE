@@ -1,3 +1,6 @@
+<img width="885" height="779" alt="изображение" src="https://github.com/user-attachments/assets/78f7b5f7-42b2-4b3c-b066-793bed7a429c" />
+
+
 # FLYE — Phone Intelligence & OSINT Tool
 
 **FLYE** — консольный инструмент для быстрой OSINT-аналитики по номеру телефона и поиску аккаунтов по нику.
@@ -64,3 +67,4 @@ pyinstaller --onefile --name "FLYE" main.py
 ---
 
 have fun
+
