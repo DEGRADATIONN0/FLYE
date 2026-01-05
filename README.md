@@ -38,7 +38,9 @@ python main.py
 
 ```bash
 pkg update
-pkg install python-pip -y
+pkg install python-pip git -y
+git clone https://github.com/DEGRADATIONN0/FLYE.git
+cd FLYE
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 # переместите main.py в Termux (scp/adb/git)
